@@ -1,0 +1,40 @@
+{
+  "name": "vanilaMesto",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000v\u0000a\u0000n\u0000i\u0000l\u0000a\u0000_\u0000m\u0000e\u0000s\u0000t\u0000o\u0000_\u0000o\u0000c\u0000t\u0000o\u0000b\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelkostin/vanila_mesto_october.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelkostin/vanila_mesto_october/issues"
+  },
+  "homepage": "https://github.com/pavelkostin/vanila_mesto_october#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "autoprefixer": "^10.3.5",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.3.0",
+    "cssnano": "^5.0.8",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "postcss-loader": "^6.1.1",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "core-js": "^3.18.0"
+  }
+}
